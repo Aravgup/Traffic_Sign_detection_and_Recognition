@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Sign Detection Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1> Traffic Sign Detection System</h1>
+    <p>Real-Time Detection using YOLOv8</p>
+
+    <div class="video-container">
+        <img src="{{ url_for('video') }}" width="800">
+    </div>
+</div>
+
+</body>
+</html>
